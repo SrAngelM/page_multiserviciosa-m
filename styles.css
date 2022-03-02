@@ -1,0 +1,61 @@
+#header img{
+    width: 80px;
+}
+
+.text-contacto{
+    color: #5fafce !important;
+}
+
+#main .carousel-inner img{
+    min-width: 70vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+
+#carousel{
+    position: relative;
+}
+
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    z-index: 1;
+}
+
+#carousel .overlay .container, #carousel .overlay .row{
+    height: 100%;
+}
+
+#nosotros h1, h2{
+    color: #5fafce;
+}
+
+
+#servicios h2{
+    color: #5fafce;
+}
+
+#contacto a{
+    text-decoration: none;
+}
+
+#footer{
+    background: rgba(26, 41, 77, 0.644);
+}
+
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+
+
+#footer div #copyrigth{
+    color: white;
+    text-align: center;
+    
+}
